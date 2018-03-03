@@ -168,8 +168,8 @@ public class LookandFeelDemo extends javax.swing.JFrame {
    // SynthLookAndFeel load() method throws a checked exception
    // (java.text.ParseException) so it must be handled
         try {
-            lookAndFeel.load(SynthDialog.class.getResourceAsStream("laf.xml"),
-                                                                      SynthDialog.class);
+            lookAndFeel.load(LookandFeelDemo.class.getResourceAsStream("laf.xml"),
+                                                                      LookandFeelDemo.class);
              UIManager.setLookAndFeel(lookAndFeel);
              } 
             
