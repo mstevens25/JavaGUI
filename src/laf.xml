@@ -1,0 +1,19 @@
+﻿<synth>
+  <style id="defaultStyle">
+    <font name="Verdana" size="24"/>
+    <state>
+      <color value="#64c60d" type="BACKGROUND"/>
+      <color value="WHITE" type="FOREGROUND"/>
+    </state>
+  </style>
+  <bind style="defaultStyle" type="region" key=".*"/>
+  <style id="textfield">
+    <state>
+      <color value="yellow" type="BACKGROUND"/>
+    </state>
+    <imagePainter method="textFieldBorder" path="textfieldborder.png"
+                  sourceInsets="5 6 6 7" paintCenter="false"/>
+    <insets top="5" left="6" bottom="6" right="7"/>
+  </style>
+  <bind style="textfield" type="region" key="TextField"/>
+ </synth>
